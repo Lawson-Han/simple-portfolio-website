@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawson Han - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -40,9 +43,13 @@
 
         <!-- Hero Section -->
         <section class="hero" id="about">
-            <h1 class="hero-title">Software developer, designer, and more...</h1>
+            <h1 class="hero-title">
+                Software <span class="highlight">Developer</span>,<br>
+                <span class="highlight">Designer</span>, and more...
+            </h1>
             <p class="hero-description">
-                I'm Lawson Han, a software developer and designer based in Hong Kong. I work at Tech Companion Limited, where we develop technology solutions that support businesses and individuals in their digital growth.
+                I'm <strong style="color: var(--text-primary)">Lawson Han</strong>, a developer and designer based in Hong Kong.
+                I work at <span class="tech-font">Tech Companion Limited</span>, where we develop technology solutions that support businesses and individuals in their digital growth.
             </p>
             <div class="social-links">
                 <a href="#" aria-label="Twitter" class="social-link">
@@ -72,20 +79,32 @@
 
         <!-- Image Gallery Strip -->
         <section class="gallery-strip" aria-label="Photo gallery">
-            <div class="gallery-item">
-                <img src="images/personal/travel/fiji.jpg" alt="Fiji" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-            </div>
-            <div class="gallery-item">
-                <img src="images/personal/travel/gold-coast.jpg" alt="Gold Coast" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-            </div>
-            <div class="gallery-item">
-                <img src="images/personal/travel/kiama.jpg" alt="Kiama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-            </div>
-            <div class="gallery-item">
-                <img src="images/personal/travel/nan-tien-temple.jpg" alt="Nan Tien Temple" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-            </div>
-            <div class="gallery-item">
-                <img src="images/personal/travel/sydney.jpg" alt="Sydney" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="images/personal/travel/sydney.jpg" alt="Sydney">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="images/personal/travel/gold-coast.jpg" alt="Gold Coast">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="images/personal/travel/kiama.jpg" alt="Kiama">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="images/personal/travel/nan-tien-temple.jpg" alt="Nan Tien Temple">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="images/personal/travel/fiji.jpg" alt="Fiji">
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -93,7 +112,7 @@
         <section class="main-content">
             
             <!-- Left Column: Projects -->
-            <div class="left-column">
+            <div class="left-column" id="projects">
                 <div class="card-header">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                         <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
@@ -187,7 +206,7 @@
                                 <div class="work-company">Airbnb</div>
                                 <div class="work-role">Product Designer</div>
                             </div>
-                            <div class="work-dates">2014 — 2019</div>
+                            <div class="work-dates">2022 — 2023</div>
                         </li>
                         
                         <li class="work-item">
@@ -200,7 +219,7 @@
                                 <div class="work-company">Baidu</div>
                                 <div class="work-role">iOS Software Engineer</div>
                             </div>
-                            <div class="work-dates">2011 — 2014</div>
+                            <div class="work-dates">2021 — 2022</div>
                         </li>
                         
                         <li class="work-item">
@@ -213,7 +232,7 @@
                                 <div class="work-company">Louis Vuitton</div>
                                 <div class="work-role">Shift Supervisor</div>
                             </div>
-                            <div class="work-dates">2008 — 2021</div>
+                            <div class="work-dates">2019 — 2021</div>
                         </li>
                     </ul>
                     

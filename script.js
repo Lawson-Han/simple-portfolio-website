@@ -32,7 +32,7 @@ const sections = Array.from(navLinks).map(link => {
 }).filter(Boolean);
 
 function updateActiveLink() {
-    const scrollPosition = window.scrollY + 100;
+    const scrollPosition = window.scrollY + 120;
     
     let activeSection = null;
     
@@ -90,7 +90,7 @@ navLinks.forEach(link => {
             e.preventDefault();
             const target = document.querySelector(href);
             if (target) {
-                const offset = 80;
+                const offset = 120;
                 const targetPosition = target.offsetTop - offset;
                 
                 window.scrollTo({
