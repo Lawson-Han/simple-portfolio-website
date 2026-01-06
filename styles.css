@@ -58,6 +58,7 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     transition: background-color var(--transition-speed), color var(--transition-speed);
+    overflow-x: hidden;
 }
 
 /* ==========================================
